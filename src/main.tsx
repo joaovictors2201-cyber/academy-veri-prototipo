@@ -1,8 +1,8 @@
 import { createRoot } from 'react-dom/client';
 import './index.css';
-import Proto from './Proto';
+import App from './App';
 import { installTheme } from './themes';
 
 installTheme();
 
-createRoot(document.getElementById('root')!).render(<Proto />);
+createRoot(document.getElementById('root')!).render(<App />);
